@@ -4,7 +4,7 @@ import Image from "next/image";
 import './page.sass'
 
 export default function Page1({ onNext }) {
-  const texto = "Cindy, hoy celebramos nuestro segundo San Valentín juntos, y cada día a tu lado ha sido un regalo del universo. Recuerdo la primera vez que te vi, cómo tu sonrisa iluminó mi mundo y cómo, desde entonces, mi vida ha estado llena de colores que nunca antes había visto. Contigo, cada momento es especial, cada risa es única y cada abrazo es mi refugio. Gracias por ser mi compañera, mi confidente y mi razón para sonreír. Te amo más de lo que las palabras pueden expresar.";
+  const texto = "Cindy, hoy celebramos nuestro San Valentín juntos, y cada día a tu lado ha sido un regalo del universo. Recuerdo la primera vez que te vi, cómo tu sonrisa iluminó mi mundo y cómo, desde entonces, mi vida ha estado llena de colores que nunca antes había visto. Contigo, cada momento es especial, cada risa es única y cada abrazo es mi refugio. Gracias por ser mi compañera, mi confidente y mi razón para sonreír. Te amo más de lo que las palabras pueden expresar.";
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
 

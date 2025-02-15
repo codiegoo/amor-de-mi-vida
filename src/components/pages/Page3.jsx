@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 
 export default function Page3({ onNext }) {
-  const texto = "Y finalmente llegara el día que tanto soñamos,  prometere amarte por el resto de mis días. Eres mi todo, mi razón de ser y la persona con la que quiero compartir cada amanecer y cada atardecer. Este momento es el inicio de nuestra eternidad juntos, y no puedo imaginar un futuro sin ti. Gracias por elegirme, por amarme y por ser la mujer increíble que eres. Hoy, no solo celebramos nuestro amor, sino el comienzo de una vida llena de felicidad, complicidad y sueños cumplidos. Te amo, hoy y siempre.";
+  const texto = "Y finalmente llegara el día que tanto soñamos, prometere amarte por el resto de mis días. Eres mi todo, mi razón de ser y la persona con la que quiero compartir cada amanecer y cada atardecer. Este momento es el inicio de nuestra eternidad juntos, y no puedo imaginar un futuro sin ti. Gracias por elegirme, por amarme y por ser la mujer increíble que eres. Hoy, no solo celebramos nuestro amor, sino el comienzo de una vida llena de felicidad, complicidad y sueños cumplidos. Te amo, hoy y siempre.";
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
 
