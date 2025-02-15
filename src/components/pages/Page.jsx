@@ -4,7 +4,7 @@ import Image from "next/image";
 import './page.sass'
 
 export default function Page({ onNext }) {
-  const texto = "Esto fue programado con mucho amor para el amor de mi vida, que nunca se pierdan los pequeños detalles en nuestra relacion, te amo Nidian ❤";
+  const texto = "Esto fue programado con mucho amor para el amor de mi vida, que nunca se pierdan los pequeños detalles en nuestra relacion, te amo Cindy ❤";
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
 
