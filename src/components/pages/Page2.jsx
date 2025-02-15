@@ -4,7 +4,7 @@ import Image from "next/image";
 import './page.sass'
 
 export default function Page2({ onNext }) {
-  const texto = "Han pasado dos años de complicidad, de sueños compartidos y de un amor que crece cada día. Cindy, contigo he aprendido que el amor no solo se siente, sino que se construye. Juntos hemos superado desafíos, celebrado victorias y soñado con un futuro lleno de promesas. Cada día a tu lado me recuerda por qué elegí amarte: por tu bondad, tu fuerza y tu capacidad de hacer que todo a nuestro alrededor sea mejor. Estoy emocionado por todo lo que nos espera, especialmente por el día en que digamos 'sí' para siempre.";
+  const texto = "Han pasado dias de complicidad, de sueños compartidos y de un amor que crece cada día. Cindy, contigo he aprendido que el amor no solo se siente, sino que se construye. Juntos hemos superado desafíos, celebrado victorias y soñado con un futuro lleno de promesas. Cada día a tu lado me recuerda por qué elegí amarte: por tu bondad, tu fuerza y tu capacidad de hacer que todo a nuestro alrededor sea mejor. Estoy emocionado por todo lo que nos espera, especialmente por el día en que digamos 'sí' para siempre.";
   const [displayedText, setDisplayedText] = useState("");
   const [index, setIndex] = useState(0);
 
